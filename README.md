@@ -1,5 +1,4 @@
-# Formable - Create, Share forms easily
-## Google Forms Clone
+# Online Survey System
+## Software Engineering Project - VJTI
 
 ![preview](preview.png)
-[VISIT SITE](https://formable-gfc.netlify.app/)
