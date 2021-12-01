@@ -50,12 +50,12 @@ function Signup(){
                 <input type="password" placeholder="Enter your password" onChange={(e) => setPwd(e.target.value)} />
             </div>
             <div className="input">
-                <label>Confir,</label>
+                <label>Confirm Password</label>
                 <input type="password" placeholder="Confirm your password" onChange={(e) => setCpwd(e.target.value)} />
             </div>
             {err && <p className="err mb-1">{err}</p>}
-            <Link to="/login" className="alt">already have an account?</Link>
-            <button className="btn" type="submit">{ loading ? <span className="spinner white"></span> : <span>create account</span>}</button>
+            <Link to="/login" className="alt">Already have an account?</Link>
+            <button className="btn" type="submit">{ loading ? <span className="spinner white"></span> : <span>Create account</span>}</button>
         </form>
     )
 }

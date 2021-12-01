@@ -36,7 +36,7 @@ function Login(){
 
     return (
         <form onSubmit={handleSubmit}>
-            <h1 className="heading mb-1">Login below</h1>
+            <h1 className="heading mb-1">Login</h1>
             <div className="input">
                 <label>Email</label>
                 <input type="email" placeholder="Enter your email" onChange={(e) => setEmail(e.target.value)} />
@@ -46,8 +46,8 @@ function Login(){
                 <input type="password" placeholder="Enter your password" onChange={(e) => setPwd(e.target.value)} />
             </div>
             {err && <p className="err mb-1">{err}</p>}
-            <Link to="/signup" className="alt">don't have an account?</Link>
-            <button className="btn" type="submit">{ loading ? <span className="spinner white"></span> : <span>login</span>}</button>
+            <Link to="/signup" className="alt">Don't have an account?</Link>
+            <button className="btn" type="submit">{ loading ? <span className="spinner white"></span> : <span>Login</span>}</button>
         </form>
     )
 }
